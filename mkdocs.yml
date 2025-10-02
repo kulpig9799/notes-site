@@ -1,0 +1,50 @@
+site_name: Ghi chú của tôi
+site_description: Wiki học tập cá nhân (DBA, SQL, Linux, Tối ưu SQL, Python, Data Engineer)
+site_url: ""
+theme:
+  name: material
+  language: vi
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Trang chủ: index.md
+  - DBA:
+      - "Cài đặt Oracle": dba/cai_dat_oracle.md
+      - "Backup & Recovery": dba/backup_recovery.md
+      - "ASM Checklist": dba/asm_checklist.md
+  - SQL:
+      - "JOIN nâng cao": sql/join.md
+      - "Subquery": sql/subquery.md
+      - "Window Functions": sql/window_functions.md
+  - Linux:
+      - "Netplan (Ubuntu)": linux/netplan.md
+      - "Shell script backup": linux/shell_script_backup.md
+      - "Quản trị CentOS": linux/centos_admin.md
+  - Tối ưu SQL:
+      - "Explain Plan": toi_uu_sql/explain_plan.md
+      - "pg_repack (PostgreSQL)": toi_uu_sql/pg_repack.md
+      - "Oracle tuning best practices": toi_uu_sql/best_practices_oracle.md
+  - Python:
+      - "Xử lý CSV": python/xu_ly_csv.md
+      - "Gọi API & lưu DB": python/call_api_to_db.md
+      - "Script convert TXT→MD": python/convert_txt_to_md.md
+  - Data Engineer:
+      - "ETL cơ bản": data_engineer/etl_co_ban.md
+      - "Airflow schedule": data_engineer/airflow_schedule.md
+      - "Kiến trúc Data Pipeline": data_engineer/data_pipeline_arch.md
