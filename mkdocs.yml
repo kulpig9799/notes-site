@@ -1,3 +1,7 @@
+repo_url: https://github.com/kulpig9799/notes-site
+repo_name: kulpig9799/notes-site
+edit_uri: edit/main/docs/
+
 site_name: Ghi chú của tôi
 site_description: Wiki học tập cá nhân (DBA, SQL, Linux, Tối ưu SQL, Python, Data Engineer)
 site_url: ""
