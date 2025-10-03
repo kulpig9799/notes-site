@@ -52,3 +52,4 @@ nav:
       - "ETL cơ bản": data_engineer/etl_co_ban.md
       - "Airflow schedule": data_engineer/airflow_schedule.md
       - "Kiến trúc Data Pipeline": data_engineer/data_pipeline_arch.md
+      - "NHC TESTTT": data_engineer/nhc_test.md
