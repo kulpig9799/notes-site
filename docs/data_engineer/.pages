@@ -2,7 +2,7 @@ title: Data Engineer       # tiêu đề mục trong menu
 arrange:                   # thứ tự file/thư mục trong mục này
   - data_pipeline_arch.md
   - airflow_schedule.md
-  - nhc_test.md
+# - nhc_test.md
 # exclude:
 #   - old_draft.md         # ẩn file/ thư mục khỏi menu nếu muốn
 # collapse: true           # (tùy chọn) thu gọn mục trong sidebar
